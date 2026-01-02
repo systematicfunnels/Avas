@@ -1,0 +1,2 @@
+function c(e){let i=[],r=[];return{config:e,createPlan:n=>(i.push(n),n),getPlans:()=>i,createSubscription:n=>(r.push(n),n),getSubscriptions:n=>n?r.filter(t=>t.tenantId===n):r,cancelSubscription:n=>{let t=r.find(s=>s.id===n);return t?(t.status="canceled",t):null}}}function a(){return{plans:[],subscriptions:[],createSubscription:async()=>{},cancelSubscription:async()=>{}}}export{c as createBilling,a as useBilling};
+//# sourceMappingURL=index.mjs.map

@@ -1,0 +1,20 @@
+ WARN  Issue while reading "E:\Hemant\Avas\.npmrc". Failed to replace env in config: ${GITHUB_TOKEN}
+
+> @avas/auth@0.1.0 build E:\Hemant\Avas\packages\auth
+> tsup src/index.ts --format esm,cjs --dts --sourcemap --minify
+
+[34mCLI[39m Building entry: src/index.ts
+[34mCLI[39m tsup v8.5.1
+[34mCLI[39m Target: node16
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mESM[39m [1mdist\index.mjs     [22m[32m296.00 B[39m
+[32mESM[39m [1mdist\index.mjs.map [22m[32m1.19 KB[39m
+[32mESM[39m ⚡️ Build success in 38ms
+[32mCJS[39m [1mdist\index.js     [22m[32m778.00 B[39m
+[32mCJS[39m [1mdist\index.js.map [22m[32m1.30 KB[39m
+[32mCJS[39m ⚡️ Build success in 38ms
+[34mDTS[39m Build start
+[32mDTS[39m ⚡️ Build success in 720ms
+[32mDTS[39m [1mdist\index.d.mts [22m[32m693.00 B[39m
+[32mDTS[39m [1mdist\index.d.ts  [22m[32m693.00 B[39m

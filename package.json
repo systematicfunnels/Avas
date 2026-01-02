@@ -1,0 +1,20 @@
+{
+  "name": "avas",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Composable SaaS Core for Multi-Product Platforms",
+  "scripts": {
+    "build": "turbo run build",
+    "lint": "eslint . --ext .ts,.tsx"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "typescript": "^5.4.5",
+    "turbo": "^1.13.3",
+    "tsup": "^8.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}

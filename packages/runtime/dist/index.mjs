@@ -1,0 +1,2 @@
+import{createAuth as a}from"@avas/auth";import{createTenantContext as r}from"@avas/tenants";import{createBilling as l}from"@avas/billing";function C(t){let e=t.auth?a(t.auth):null,n=r(),i=t.billing?l(t.billing):null;return{config:t,auth:e,tenants:n,billing:i,getContext:()=>({appId:t.appId,tenantMode:t.tenantMode,currentTenant:n.getCurrentTenant()})}}export{C as initAvas};
+//# sourceMappingURL=index.mjs.map

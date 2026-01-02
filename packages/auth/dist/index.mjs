@@ -1,0 +1,2 @@
+function n(r){return{config:r,async login(e,s){return{success:!0,user:{id:"temp",email:e,roles:["user"]}}},async logout(){return{success:!0}}}}function t(){return{user:null,isLoading:!1,login:async()=>{},logout:async()=>{}}}export{n as createAuth,t as useAuth};
+//# sourceMappingURL=index.mjs.map

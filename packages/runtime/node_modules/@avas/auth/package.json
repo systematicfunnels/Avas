@@ -1,0 +1,21 @@
+{
+  "name": "@avas/auth",
+  "version": "0.1.0",
+  "description": "Avas Authentication Core",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts --sourcemap --minify",
+    "dev": "tsup src/index.ts --watch --format esm,cjs --dts --sourcemap"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "dependencies": {
+    "@avas/tenants": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}

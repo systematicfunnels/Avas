@@ -1,0 +1,23 @@
+{
+  "name": "@avas/runtime",
+  "version": "0.1.0",
+  "description": "Avas Runtime Configuration and Core",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts --sourcemap --minify --tsconfig tsconfig.json",
+    "dev": "tsup src/index.ts --watch --format esm,cjs --dts --sourcemap --tsconfig tsconfig.json"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "dependencies": {
+    "@avas/auth": "workspace:*",
+    "@avas/tenants": "workspace:*",
+    "@avas/billing": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}

@@ -1,0 +1,2 @@
+function u(e=[]){let t=null;return{getCurrentTenant:()=>t,setCurrentTenant:n=>{t=n},getTenants:()=>e,addTenant:n=>{e.push(n)},withTenant:(n,a)=>{let r=e.find(o=>o.id===n);if(!r)throw new Error(`Tenant ${n} not found`);let T=t;t=r;try{return a()}finally{t=T}}}}function i(){return u()}export{i as TenantContext,u as createTenantContext};
+//# sourceMappingURL=index.mjs.map

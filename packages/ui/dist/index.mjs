@@ -1,0 +1,2 @@
+function e({children:t}){return{render:()=>({header:{title:"Avas Platform"},main:t,footer:{text:"Powered by Avas"}})}}function n({children:t,onClick:r}){return{type:"button",className:"avas-button primary",onClick:r,children:t}}export{e as AppLayout,n as PrimaryButton};
+//# sourceMappingURL=index.mjs.map
